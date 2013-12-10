@@ -1,4 +1,5 @@
 <?php
+//Testing
 session_start();
 include("config/dbconfig.php");
 include("config/common.php");
