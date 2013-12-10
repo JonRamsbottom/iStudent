@@ -1,0 +1,259 @@
+/*@import url("select/uniform.default.css");*/
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSansItalic';
+    src: url('fonts/OpenSans-Italic-webfont.eot');
+    src: url('fonts/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Italic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Italic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Italic-webfont.svg#OpenSansItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/OpenSans-Bold-webfont.eot');
+    src: url('fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Bold-webfont.svg#OpenSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('fonts/OpenSans-BoldItalic-webfont.eot');
+    src: url('fonts/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-BoldItalic-webfont.woff') format('woff'),
+         url('fonts/OpenSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'glypha_65bold';
+    src: url('fonts/glypha-bold-webfont.eot');
+    src: url('fonts/glypha-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/glypha-bold-webfont.woff') format('woff'),
+         url('fonts/glypha-bold-webfont.ttf') format('truetype'),
+         url('fonts/glypha-bold-webfont.svg#glypha_65bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {color: #363734; font: normal 13px/20px 'OpenSansRegular', Arial, Helvetica, sans-serif}
+a {color: #595959; text-decoration: none}
+a:hover {color: #000; border: none; text-decoration: none}
+img {border: none; outline: none}
+ul,
+ol {list-style: none}
+* {outline: none; margin: 0; padding: 0}
+
+p { margin:5px 0 15px 0; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-weight: normal}
+/* =============== Globel Class [Please do not change on Below Class] ============= */
+
+.fl {float: left !important}
+.fr {float: right !important}
+.cl {clear: both !important}
+.vm {vertical-align: middle !important}
+.vt {vertical-align: top !important}
+.tec {text-align: center !important}
+.ter {text-align: right !important}
+.tel {text-align: left !important}
+.boNo {border: none !important}
+.bgNo {background: none !important}
+.spacer {height: 0}
+.noma_t {margin-top: 0 !important}
+.noma_r {margin-right: 0 !important}
+.noma_l {margin-left: 0 !important}
+.noma_b {margin-bottom: 0 !important}
+.nopad_t {padding-top: 0 !important}
+.nopad_r {padding-right: 0 !important}
+.nopad_l {padding-left: 0 !important}
+.nopad_b {padding-bottom: 0 !important}
+.ma_t10px {margin-top: 10px !important}
+.ma_r6px {margin-right: 6px !important}
+/* =============== End Globel Class ============= */
+
+
+input[type="text"],
+input[type="password"] {padding: 0 10px; color: #a2a1a1; font: normal 12px/37px Arial, Helvetica, sans-serif; line-height: 37px; height: 37px; border: none; background: none}
+
+/* =============== End of Globel Class ============= */
+
+#bodyWrapper {position: relative; z-index: 0; min-width:1200px; overflow:auto;
+	padding-bottom: 150px;}
+#pageWrapper {position: relative; z-index: 0;}
+.fix_width {width: 1050px; margin: 0 auto; display: block}
+.main_bg{background:url(imagesnew/main_bg.jpg) left top repeat-x;}
+.inner_main_bg{background:url(imagesnew/inner_main_bg.jpg) left top repeat-x;}
+/* =============== Header ============= */
+
+#header {height:80px; position:relative; width:100%; background:url(imagesnew/head_bg.png) left top repeat-x;}
+.logo{padding:15px 0 0 0; margin:0px;}
+.head_top{padding:0px 0 25px 0px; margin:0px; width:750px;}
+.head_top h2{padding:0px 10px 0 0px; margin:0px; font-family: 'glypha_65bold'; font-size:29px; color:#484848; text-align:right;}
+
+/* navigation */
+.navi{padding:0px 0 0 0px; margin:0px;}
+
+
+#home_middle{width:100%; padding:0px 0 20px 0; margin:0px; background:url(imagesnew/pattern.jpg) repeat; overflow:hidden; border-bottom:2px solid #e8e6e6;}
+.banner_block{padding:0px; margin:0px; width:100%; overflow:hidden; position:relative;}
+.ban_sh{text-align:center; padding:2px 0 0 0;}
+.caption{padding:12px; margin:0px 0 0 239px; background:url(imagesnew/caption_bg.png) repeat; position:absolute; top:234px;}
+.caption h2{padding:0px 10px 0 0px; margin:0px; font-family: 'glypha_65bold'; font-size:31px; color:#f12c41; text-shadow:0px 1px #fff; line-height:31px;}
+.caption h3{padding:0px 10px 0 0px; margin:0px; font-family: 'glypha_65bold'; font-size:27px; color:#000000; text-shadow:0px 1px #fff; line-height:31px;}
+.caption h3 span{color:#f12c41; text-shadow:0px 1px #000; padding-left:10px;}
+.home-title{padding:0px; margin:0px auto; width:364px; height:51px; text-align:center; line-height:51px; font-family: 'glypha_65bold'; font-size:27px; color:#000000; background:url(imagesnew/home_title_bg.png) left top no-repeat;}
+.step_main{padding:28px 0 0 0px; margin:0px; position:relative;}
+.step_block{padding:0px; margin:0px 86px 0 0; width:274px; text-align:center;}
+.round-bg{padding:26px 0 0 0px; margin:0px auto; width:96px; height:70px; background:url(imagesnew/round-bg.png) no-repeat; text-align:center; color:#292929; font-family: 'glypha_65bold'; font-size:23px; line-height:25px;}
+.step_block h2{color:#292929; font-family: 'glypha_65bold'; font-size:20px; padding:20px 0 0 0; margin:0px;}
+.step_block p{color:#292929; font-family: 'OpenSansRegular'; font-size:14px; padding:10px 0 0 0; margin:0px; line-height:18px;}
+.red-arrow{padding:0px; margin:0px; position:absolute; left:270px; top:42px;}
+.black-arrow{padding:0px; margin:0px; position:absolute; right:260px; top:55px;}
+
+#mid-inner{padding:24px 0 30px 0px; margin:0px; width:100%; overflow:hidden;}
+.home-testi{width:420px; padding:0px; margin:0px;}
+
+
+
+
+#home_inner_middle{width:100%; padding:0px 0 20px 0; margin:0px; background:url(imagesnew/inner_bg.jpg) repeat-x #FFF; overflow:hidden}
+.breadcrumbs{width:100%}
+.breadcrumbs ul{margin:15px 0 0}
+.breadcrumbs ul li{margin:0; padding:0; float:left; padding:0 10px 0 0; font-style:italic; color:#FFF}
+.breadcrumbs ul li a{color:#FFF}
+.breadcrumbs ul li a:hover{color:#000}
+.fix_width h1{font-size:27px; color:#FFF; font-family: 'glypha_65bold'; margin:30px 0 0}
+.contact_lft{font-size:16px; color:#505050; margin:35px 0 0; display:block;}
+
+
+input[type="text"],
+input[type="password"]{background:url(imagesnew/contact_input.jpg) no-repeat; width:237px; height:30px; line-height:30px; font-style:italic; color:#6b6b6b; font-size:13px}
+textarea{background:url(imagesnew/contact_textarea.jpg) ; line-height:18px; font-style:italic; color:#6b6b6b; font-size:10px; padding:5px 0 0 10px}
+
+
+
+
+
+
+
+
+
+
+
+#nav{
+	list-style:none;
+	margin-top:5px;
+	font-family: 'glypha_65bold';
+	float:left;
+	margin-left: 50px;
+	font-size: 15px;
+	position:relative;
+	z-index:5;
+	width: 100%;
+}
+.error {
+	color:#C30;
+	font-size: 13px;
+}
+#nav li{
+	float:left;
+	-moz-border-radius: 10px;
+border-radius: 10px;
+	font-size: 15px;
+
+	margin-right:10px;
+	position:relative;
+}
+#nav a{
+	display:block;
+	padding:5px;
+	color:#fff;
+	text-decoration:none;
+}
+#nav a:hover{
+	color:#fff;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav ul li{
+
+	padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+border:1px solid white;
+	float:none;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#42413C;
+		-moz-border-radius: 10px;
+border-radius: 10px;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background:#333;
+}
+.crmtasks{
+	background-color: #06F;
+}
+
+.websitetasks{
+	background-color: #900;
+}
+.northbridgev{
+	background-color: #009966;
+}
+.personal{
+	background-color: #F90;
+}
+.logout{
+	background-color: #000;
+}
+
+
+#footer {position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	background-color: #333; color:#FFF; min-width:1200px;} 
+	html, body {height: 100%;}
+
+#wrap {min-height: 100%;}html, body {height: 100%;}
